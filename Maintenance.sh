@@ -3,4 +3,7 @@
 apt-get update
 apt-get -y upgrade
 
-echo "Update done"
+apt-get -y autoremove
+apt-get autoclean
+
+echo "Done"
